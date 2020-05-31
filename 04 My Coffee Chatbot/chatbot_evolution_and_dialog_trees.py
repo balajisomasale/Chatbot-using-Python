@@ -6,7 +6,6 @@
 
 
 
-
 # Define your functions
 
 def coffee_bot():
