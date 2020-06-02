@@ -9,10 +9,16 @@ For every value, check to see if that value is in seen_values. If it is, continu
 If it is not, add it to seen_values. After looping through all values, return the length of seen_values.
 '''
 
-# Write your count_first_letter function here:
+# Write your unique_values function here:
 
+def unique_values(my_dictionary):
+    seenvalues=[]
+    for value in my_dictionary.values():
+        if value not in seenvalues:
+            seenvalues.append(value)
+    return len(seenvalues)
 # Uncomment these function calls to test your  function:
-#print(count_first_letter({"Stark": ["Ned", "Robb", "Sansa"], "Snow" : ["Jon"], "Lannister": ["Jaime", "Cersei", "Tywin"]}))
-# should print {"S": 4, "L": 3}
-#print(count_first_letter({"Stark": ["Ned", "Robb", "Sansa"], "Snow" : ["Jon"], "Sannister": ["Jaime", "Cersei", "Tywin"]}))
-# should print {"S": 7}
+print(unique_values({0:3, 1:1, 4:1, 5:3}))
+# should print 2
+print(unique_values({0:3, 1:3, 4:3, 5:3}))
+# should print 1
