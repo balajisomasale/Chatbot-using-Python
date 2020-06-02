@@ -5,7 +5,7 @@ The function should return a dictionary of key/value pairs where every key is a 
 
 Hint
 First create an empty dictionary named something like word_lengths. 
-Loop through every word in words and add a new key using word_lengths[word] = len(word)
+Loop through every word in words and add a new k Key using word_lengths[word] = len(word)
 '''
 
 # Write your word_length_dictionary function here:
