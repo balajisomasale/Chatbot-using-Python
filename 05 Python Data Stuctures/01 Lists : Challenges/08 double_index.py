@@ -17,18 +17,22 @@ After writing your function, un-comment the call to the function that we’ve pr
 
 #Write your function here
 
-def more_frequent_item(lst,item1,item2):
-    i1=0
-    i2=0
-    first=lst.count(item1)
-    second=lst.count(item2)
+def double_index(lst,index):
+    result=lst
     
-    if first>second:
-        return item1
-    elif second>first:
-        return item2
-    else:
-        return item1
+    for i in lst:
         
+        
+        if lst.index(i)==index:
+            print(i*2)
+            result.remove(i)
+            result.insert(index,i*2)
+            return result
+        
+            
 #Uncomment the line below when your function is done
-print(more_frequent_item([2, 3, 3, 2, 3, 2, 3, 2, 3], 2, 3))
+print(double_index([3, 8, -10, 12], 1))
+
+
+o/p: 16
+[3, 16, -10, 12]
