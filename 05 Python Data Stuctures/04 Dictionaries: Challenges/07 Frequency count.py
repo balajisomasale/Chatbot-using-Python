@@ -21,3 +21,15 @@ print(frequency_dictionary(["apple", "apple", "cat", 1]))
 # should print {"apple":2, "cat":1, 1:1}
 print(frequency_dictionary([0,0,0,0,0]))
 # should print {0:5}
+
+Another Solution :
+    
+    def frequency_dictionary (words):
+    result={}
+    for item in words:
+        if item in result:
+            result[item]+=1
+        else:
+            result[item]=1
+        #result[item]=words.count(item)
+    return result
