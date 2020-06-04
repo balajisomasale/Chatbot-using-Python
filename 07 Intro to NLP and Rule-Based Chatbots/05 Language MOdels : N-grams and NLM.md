@@ -12,7 +12,7 @@ A bigram model (where n is 2) might give us the following count frequencies:
 {('', 'the'): 2, ('the', 'squids'): 2, ('squids', 'jumped'): 1, ('jumped', 'out'): 1, 
 ('out', 'of'): 1, ('of', 'the'): 1, ('the', 'suitcases'): 1, ('suitcases', ''): 1,
 ('squids', 'were'): 1, ('were', 'furious'): 1, ('furious', ''): 1}
-There are a couple problems with the n gram model:
+### There are a couple problems with the n gram model:
 
 How can your language model make sense of the sentence “The cat fell asleep in the mailbox” 
 if it’s never seen the word “mailbox” before? During training, 
@@ -31,7 +31,7 @@ Enter neural language models (NLM)! Much recent work within
 NLP has involved developing and training neural networks to approximate the approach our human brains take towards language. 
 This deep learning approach allows computers a much more adaptive tack to processing human language.
 
-Instructions
+## Instructions
 1.If you run the code, you’ll see the 10 most commonly used words in 
 Through the Looking Glass parsed with NLTK’s ngrams module — if you’re thinking this looks like a bag of words,
 that’s because it is one!
