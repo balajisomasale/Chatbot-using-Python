@@ -1,19 +1,3 @@
-'''
-In this project, you will process some data from a group of friends playing scrabble. You will use dictionaries to organize players, words, and points.
-
-There are many ways you can extend this project on your own if you finish and want to get more practice!
-
-If you get stuck during this project or would like to see an experienced developer work through it, click “Get Help“ to see a project walkthrough video.
-'''
-'''
-EXTRA Special Objectives (see video Link) :
-If you want extended practice, try to implement some of these ideas with the Python you’ve learned:
-
-play_word() — a function that would take in a player and a word, and add that word to the list of words they’ve played
-update_point_totals() — turn your nested loops into a function that you can call any time a word is played
-make your letter_to_points dictionary able to handle lowercase inputs as well'''
-
-## To see the video solution with additional solution answers => https://www.youtube.com/watch?v=WjVJcCBazNI&feature=youtu.be
 
 letters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
 points = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 4, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10]
