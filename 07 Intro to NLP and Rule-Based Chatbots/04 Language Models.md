@@ -33,7 +33,7 @@ from looking_glass import looking_glass_text
 # importing part-of-speech function for lemmatization
 from part_of_speech import get_part_of_speech
 
-# Change text to another string:
+# Change text to another string: => text = "Such an excellent bag of words and an excellent word 'bags'."
 text = looking_glass_text
 
 cleaned = re.sub('\W+', ' ', text).lower()
