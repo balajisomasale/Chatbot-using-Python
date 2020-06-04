@@ -12,4 +12,4 @@ If you want extended practice, try to implement some of these ideas with the Pyt
 
 
 
-# To see the video solution with additional solution answers => https://www.youtube.com/watch?v=WjVJcCBazNI&feature=youtu.be
+ To see the video solution with additional solution answers => https://www.youtube.com/watch?v=WjVJcCBazNI&feature=youtu.be
