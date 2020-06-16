@@ -17,6 +17,8 @@ tokenized = word_tokenize(text)
 
 print(tokenized)
 # ["Tokenize", "this", "text"]
+
+```
 To tokenize at the sentence level, we can use sent_tokenize() from the same module.
 
 
@@ -28,6 +30,7 @@ tokenized = sent_tokenize(text)
 
 print(tokenized)
 # ['Tokenize this sentence.', 'Also, tokenize this sentence.']
+```
 Instructions
 1.
 Import the word_tokenize() and sent_tokenize() functions from Python’s NLTK package.
