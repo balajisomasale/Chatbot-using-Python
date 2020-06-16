@@ -1,5 +1,5 @@
-'''
-Noise Removal
+
+# Noise Removal
 Text cleaning is a technique that developers use in a variety of domains. Depending on the goal of your project and where you get your data from, you may want to remove unwanted information, such as:
 
 punctuation and accents
@@ -18,7 +18,7 @@ The method returns a string with all instances of the pattern replaced by the re
 
 Examples
 First, let’s consider how to remove HTML <p> tags from a string:
-
+```python 
 import re 
 
 text = "<p>    This is a paragraph</p>" 
@@ -30,7 +30,7 @@ print(result)
 Notice, we replace the tags with an empty string ''. This is a common approach for removing text.
 
 Next, let’s remove the whitespace from the beginning of the text. The whitespace consists of four spaces.
-
+```python
 import re 
 
 text = "    This is a paragraph" 
@@ -61,8 +61,7 @@ We also saved a Tweet to the variable tweet. Remove all @ characters. Save the r
 Hint
 Use the .sub() method to find @ characters and replace them with ''.
 
-'''
-
+```python
 import re
 
 headline_one = '<h1>Nation\'s Top Pseudoscientists Harness High-Energy Quartz Crystal Capable Of Reversing Effects Of Being Gemini</h1>'
